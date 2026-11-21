@@ -1,0 +1,18 @@
+﻿# Strictly exclude Microsoft Access databases & lock files
+*.accdb
+*.laccdb
+*.mdb
+*.ldb
+
+# Local build logs & scratch exports
+*.log
+access_refresh_patch/
+verify_*.txt
+tmp__*.txt
+
+# Claude / IDE / OS metadata
+.claude/
+.vscode/
+.DS_Store
+Thumbs.db
+~$*
